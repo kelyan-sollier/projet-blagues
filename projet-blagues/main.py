@@ -10,3 +10,4 @@ if __name__ == "__main__":
 
 lang = input("Sélectionnez une langue (en, de, es, fr) : ")
 print(f"Voici une blague en {lang}: {pyjokes.get_joke(language=lang)}")
+
